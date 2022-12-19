@@ -1,0 +1,96 @@
+body{
+  padding: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+#box{
+  width: 1270px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0%;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+#box-right{
+  width: 600px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: left;
+  margin: auto;
+  margin-top: 0%;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+.box{
+  padding: 25px;
+  text-align: left;
+}
+.box-right{
+  text-align: center;
+}
+img{
+  width:250px;
+}
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4,200px);
+  justify-content: center;
+  align-content: center;
+  grid-gap: 100px;
+  height: 100vh;
+}
+#footer{
+  background-color: rgb(46, 46, 46);
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+}
